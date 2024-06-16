@@ -4,12 +4,14 @@ import { Play } from 'lucide-react';
 import { Pause } from 'lucide-react';
 import { ArrowDown } from 'lucide-react';
 import { useState } from 'react';
-//const synth = window.speechSynthesis;
+
+const synth = window.speechSynthesis;
+
 function ChatBox({type, text, play1, play2, set_play1, set_play2, index, chatLength , autoPlay, set_autoPlay}) {
     const [correctText, set_correctText] = useState("No one believes a liar even if they speak the truth once.")
     const [showCorrection, set_showCorrection] = useState(false)
 
-    const synth = window.speechSynthesis;
+    // const synth = window.speechSynthesis;
     useEffect(() => {
         return () => {
             synth.cancel();

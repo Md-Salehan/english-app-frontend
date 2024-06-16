@@ -52,7 +52,7 @@ function Main() {
             <div className='page home'>
               <div className='header'>
               
-              <div>
+              <div className='header-menu-title-wp'>
               {width <= 850 && (navtoggleBtn ? 
               <X onClick={handle_navToggle} className='icon' /> : 
               <Menu onClick={handle_navToggle} className='icon' />)}

@@ -12,7 +12,7 @@ import GrammarHub from './Pages/grammarHub/GrammarHub';
 import MyAccount from './Pages/myAccount/MyAccount';
 import Tools from './Pages/tools/Tools';
 import VoiceChat from './Pages/voiceChat/VoiceChat';
-import VoiceChat_exp from './Pages/voiceChat/VoiceChat_exp';
+// import VoiceChat_exp from './Pages/voiceChat/VoiceChat_exp';
 function App() {
   return (
     <BrowserRouter>
